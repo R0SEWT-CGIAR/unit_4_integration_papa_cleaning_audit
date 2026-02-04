@@ -45,7 +45,7 @@ El incidente no fue producto de un bypass o uso indebido, sino de un patrón de 
 ## 5. Medidas de mitigación implementadas
 
 Se añadieron controles de carga, persistencia segura y registro de métricas en
-[`unit4_audit.py`](../unit4_audit.py), con el objetivo de eliminar la posibilidad de agotamiento de memoria y permitir una operación controlada.
+[`unit4_audit.py`](../../unit4_audit.py), con el objetivo de eliminar la posibilidad de agotamiento de memoria y permitir una operación controlada.
 
 ### Controles implementados
 
