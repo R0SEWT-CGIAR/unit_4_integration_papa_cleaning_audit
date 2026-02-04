@@ -6,7 +6,7 @@ La ejecución del script fue validada previamente en el entorno de prueba (CIPTE
 El incidente a promediar las 14:30 del 4 de Febrero de 2026, ocasionado al solicitar todos los documentos en una única respuesta incluyendo `fileContent` (Base64), lo cual incrementa significativamente el tamaño de los objetos en memoria y amplifica el impacto de una enumeración completa.
 
 ## Medidas de mitigación implementadas
-Se añadieron controles de carga y registro de métricas en [unit4_audit.py](unit4_audit.py):
+Se añadieron controles de carga y registro de métricas en [unit4_audit.py](../unit4_audit.py):
 
 - Rate limit configurable (`UNIT4_MIN_INTERVAL`).
 - Backoff + retries para 429/5xx/timeouts.
